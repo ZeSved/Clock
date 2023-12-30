@@ -1,0 +1,32 @@
+.timeContainer {
+	display: flex;
+	align-items: center;
+
+	gap: 2rem;
+
+	.timeContainer__time,
+	.timeContainer__select {
+		display: flex;
+	}
+
+	.timeContainer__time {
+		gap: 4rem;
+		color: #008ead;
+		font-size: 10rem;
+	}
+
+	.divider {
+		background: linear-gradient(
+			0deg,
+			rgba(33, 33, 33, 1) 0%,
+			rgba(83, 83, 83, 1) 50%,
+			rgba(33, 33, 33, 1) 100%
+		);
+		width: 2px;
+		height: 6rem;
+	}
+
+	.timeContainer__select {
+		flex-direction: column;
+	}
+}
